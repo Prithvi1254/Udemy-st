@@ -1,0 +1,72 @@
+.container {
+    background-color: beige;
+    border: 2px solid black;
+    height: 1200px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* Note reverse of box is possible by flex direciton  */
+    flex-wrap: wrap;
+    /* This wrap mean if we squeez then element will not reduce their size but rather go down */
+    /* There is wrap reverse */
+    justify-content: center;
+    /* This puts thing in center according to x axis */
+    justify-content: space-between;
+    /* Space between means first and last atched to boundary rest have equal space between them 
+    occuming all */
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* All size same */
+    justify-content: center;
+    align-items: center;
+    /* This aligns to the cross axis ie y axis */
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+
+    /* The usefull is when we wrap it ie minimize then the blocks go down leaving space between the  */
+    /* align-self: center; */
+    /* aligns according to cross axis or y axis */
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+#box1 {
+    background-color: aqua;
+    /* flex-shrink: 4; */
+    /* this means it will shrink 4 times faster than the other boxes */
+    /* flex-grow: 5; */
+    flex-grow: 1;
+    /* if all is one it occupies all space */
+}
+
+#box2 {
+    background-color: blue;
+    /* order: 2; */
+    /* This gives the priority */
+    flex-grow: 1;
+    /* flex-basis: 400px; */
+    /* This sets the width of the box */
+    /* align-self: center; */
+    /* aligns according to cross axis or y axis */
+}
+
+#box3 {
+    background-color: orange;
+    /* order: -1; */
+    flex-grow: 1;
+}
+
+#box4 {
+    background-color: brown;
+    flex-grow: 1;
+}

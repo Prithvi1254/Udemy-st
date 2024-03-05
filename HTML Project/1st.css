@@ -1,0 +1,88 @@
+/* * {
+    background-color: pink;
+} */
+
+h1,
+h2 {
+    color: red;
+}
+
+/* if we only use button it will select all button but if we want a single we need to 
+give id and use that id with # */
+button {
+    color: cyan;
+    background-color: green;
+}
+
+#link {
+    color: red;
+}
+
+/*  for all class we use . instead of#*/
+.para {
+    color: cyan;
+    background-color: orange;
+}
+
+/* Here is mean all link inside the para ie it will color all link nside the para not para */
+/* for link we use a */
+p a {
+    color: green;
+}
+
+/* + Operator ie eg h2+butoon here every button right after h2 will be done */
+h2+button {
+    color: orangered;
+}
+
+/* Thi down here mean direct discendents o the prev */
+h2>a {
+    color: azure;
+}
+
+/* Selector attribute for eg we select all input which have text or password */
+input[type=password] {
+    color: red;
+}
+
+/* a[href*="example" means all anchor ag starting with example changes to purple] */
+
+/* ?Hover changes the color when you move over them with cursor */
+.hh:hover {
+    background-color: #ED474A;
+    color: #C0BCB5;
+}
+
+/* ?active when you click on the button it changes tis color */
+button:active {
+    color: white;
+    background-color: red;
+}
+
+/* changes all alternate bacground color */
+.nav:nth-of-type(2n) {
+    background-color: aqua;
+}
+
+/* div:nth-last-of-type(3)Here it will only change 3rd */
+/* :nth-child(-n + 3) */
+
+p::first-letter {
+    font-weight: 400;
+    color: red;
+}
+
+::selection {
+    background-color: orange;
+}
+
+/* ::after/ */
+/* :: are pseudo elements */
+
+/* If there is collision for priority the INLINESTYLES>>ID>>CLASS>>ELEMENT */
+/* More the selector More the priority */
+/* !important if we use this then automatica */
+#colour option:hover {
+    background-color: #ED474A;
+    color: #C0BCB5;
+}

@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    /* font-weight: 400; */
+    font-weight: bold;
+    /* font-weight:bold */
+    text-decoration: blue underline;
+    line-height: 0cqb;
+}
+
+section {
+    font-family: Cedarville Cursive;
+    height: 800px;
+    width: 400px;
+    margin: 0 auto;
+    background-image: url("https://images.pexels.com/photos/1566909/pexels-photo-1566909.jpeg?cs=srgb&dl=pexels-alexander-grey-1566909.jpg&fm=jpg");
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+}
+
+button {
+    color: pink;
+    background-color: rgb(92, 155, 0);
+    font-family: 100;
+    font-size: 40px;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    text-decoration: underline wavy plum;
+    font-family: monospace;
+}
+
+p {
+    background-color: brown;
+}

@@ -1,0 +1,37 @@
+/* RGBA A for alpha has range 0 to 1 if 0 means completely transparent while 1 means not */
+/* Opacity is also 0-1 but here it affects the text message and give it the color as well */
+
+div {
+    background-color: magenta;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#two,
+#two1,
+#two2 {
+    background-color: blue;
+}
+
+#section #one {
+    position: relative;
+}
+
+#section #two {
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+    /* Left means it will move towards right */
+}
+
+#absolute #three {
+    position: absolute;
+
+}
+
+/* In absolute the element is removed from normal documnet and no space is left */
+/* In fixed also it is removed like absolute and removed and is position relative here it remain
+ on ypur screen where it was even when you scroll */
+/* Fixed does not change position relative does */

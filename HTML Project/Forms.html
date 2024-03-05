@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <!-- <form action="/tacos"> -->
+    <h3>search on redit</h3>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="username">Enter the username</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter the password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <input type="color">
+        <button type="button">just a button</button>
+        <button>submit</button>
+
+        <input type="text" name="q">
+        <button>redditsubmit</button>
+
+    </form>
+
+    <hr>
+    <h3>search on google</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>googlesubmit</button>
+        <h3>search on youtube</h3>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <Button>Youtube submit</Button>
+
+    </form>
+    <form action="/tacos">
+        <input type="checkbox" name="check" id="check" checked>
+        <label for="check">I agree to terms and conditions</label>
+    </form>
+    <!-- This will create the circulr checkbox 
+        if you want them connected ie only one should work 
+        then their name should be same 
+    the value here tell in the wbesite link which opyion you have selected-->
+    <hr>
+    <h2>what is your gender</h2>
+    <form action="/tacos">
+        <input type="radio" name="rado" id="radio" value="male">
+        <label for="radio">Male</label>
+        <input type="radio" name="rado" id="female" value="female">
+        <label for="female">female</label>
+        <input type="radio" name="rado" id="third">
+        <label for="third">third</label>
+        <button>submit the gender</button>
+    </form>
+    <h3>Select Class</h3>
+    <label for="class">enter your class</label>
+    <select name="classseses" id="class">
+        <option value="1">1st</option>
+        <option value="2">2st</option>
+        <option value="3" selected>3st</option>
+        <option value="4">4st</option>
+        <option value="5">5st</option>
+
+    </select>
+    <label for="thefyh">what is your name</label>
+    <select name="nmsss" id="thefyh">
+        <option value="7">prithvi</option>
+        <option value="8">raj</option>
+        <option value="9" selected>thvi</option>
+        <option value="10">prit</option>
+    </select>
+    <h3>
+        <form action="/tacos">
+            <label for="rng">range is</label>
+            <input type="range" id="rng" name="range" min="1" max="10" step="3">
+            <button>submit</button>
+        </form>
+    </h3>
+    <form action="/tacos">
+        <label for="rnge">range is</label>
+        <input type="number" id="rnge" name="range" min="1" max="10" step="3" placeholder="enter">
+        <button>submit</button>
+    </form>
+    <hr>
+
+
+</body>
+
+</html>
